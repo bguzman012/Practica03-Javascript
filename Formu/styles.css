@@ -36,7 +36,7 @@ html {
   .error {
     padding-left: unset;
     text-align: center;
-    color: gold;
+    color: red;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
   }
