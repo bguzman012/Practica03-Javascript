@@ -23,7 +23,7 @@ imgArray[9].src = "imagenes/historia.jpg";
 var numeros = [];
 var lugar;
 
-function iniciar() {
+function play() {
   lugar = 0;
   document.getElementById("image").disabled = false;
   var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
@@ -40,7 +40,7 @@ function iniciar() {
   document.getElementById("image").src = imgArray[numeros[lugar]].src;
 }
 
-function siguiente() {
+function right() {
   if (lugar < 4) {
     ActivarAnterior();
     lugar++;
@@ -52,7 +52,7 @@ function siguiente() {
   console.log(lugar);
 }
 
-function anterior() {
+function left() {
   if (lugar > 0) {
     ActivarSiguiente();
     lugar--;
