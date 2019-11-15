@@ -1,0 +1,89 @@
+html {
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  body {
+    max-width: fit-content;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+  }
+  .marco {
+    border: 1px solid #ccc;
+    height: 45vh;
+    width: 40vw;
+  }
+  
+  .imagen {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+  }
+  
+  .principal {
+    display: block;
+    padding: 5vh;
+    margin-top: 15vh;
+    max-width: 45vw;
+    background: cornsilk;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.75);
+    height: auto;
+    width: fit-content;
+    background-color: aquamarine;
+  }
+  
+  #btn {
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    background-color: rgb(170, 165, 165);
+    color: rgb(83, 81, 81);
+  }
+  #left,
+  #right {
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    background-color: lightgreen;
+    color: rgb(83, 81, 81);
+  }
+  .botones {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1vh;
+  }
+  
+  .buttom {
+    max-width: fit-content;
+    margin: 2vh;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 2vh;
+    font-weight: 600;
+    font-size: 20px;
+    width: 28vw;
+    box-sizing: border-box;
+    border: 2px solid #999;
+  }
+  
